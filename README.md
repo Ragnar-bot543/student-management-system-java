@@ -1,2 +1,30 @@
-# student-management-system-java
-Built a Student Management System in Java to manage student records through a menu-driven interface. Applied OOP concepts, arrays of objects, linear search, and array shifting to implement add, view, search, and delete functionalities.
+# Student Management System
+
+A console-based Student Management System developed in Java using Object-Oriented Programming concepts.
+
+## Features
+
+- Add Student
+- View All Students
+- Search Student by ID
+- Delete Student
+- Menu Driven Interface
+
+## Concepts Used
+
+- Classes and Objects
+- Constructors
+- Encapsulation
+- Arrays of Objects
+- Linear Search
+- Array Shifting
+- Menu Driven Programming
+
+## Technologies
+
+- Java
+- IntelliJ IDEA
+
+## Author
+
+Aman Arun Rathod
