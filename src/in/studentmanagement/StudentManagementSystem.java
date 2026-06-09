@@ -7,7 +7,7 @@ public class StudentManagementSystem {
     private static final Student[] studentArr = new Student[50];
     private static int studentCount = 0;
 
-    public void addStudent() {
+    public static void addStudent() {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter Student ID: ");
@@ -89,7 +89,6 @@ public class StudentManagementSystem {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        StudentManagementSystem service = new StudentManagementSystem();
 
         System.out.println("\n===== STUDENT MANAGEMENT SYSTEM =====");
         int choice;
@@ -105,16 +104,16 @@ public class StudentManagementSystem {
 
             switch (choice) {
 
-                case 1: service.addStudent();
+                case 1: addStudent();
                     break;
 
-                case 2: service.viewAllStudents();
+                case 2: viewAllStudents();
                     break;
 
-                case 3: service.searchStudent();
+                case 3: searchStudent();
                     break;
 
-                case 4: service.deleteStudent();
+                case 4: deleteStudent();
                     break;
 
                 case 5:
